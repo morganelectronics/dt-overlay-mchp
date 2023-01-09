@@ -92,14 +92,9 @@
 			fdt = "base_fdt";
 		};
 
-		pda5 {
-			description = "FDT overlay blob for PDA TM5000 screen";
-			fdt = "fdt_pda5";
-		};
-
-		wilc {
-			description = "FDT overlay blob for WILC3000";
-			fdt = "fdt_wilc3000";
+		wfx {
+			description = "FDT overlay blob for wfm200s";
+			fdt = "fdt_wfx";
 		};
 	};
 };
